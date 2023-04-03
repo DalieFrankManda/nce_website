@@ -1,0 +1,97 @@
+body {
+  background-image: url(../images/NalikuleCollege.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  text-decoration: underline;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(34, 34, 184);
+}
+
+.header2 {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(34, 34, 184);
+}
+
+#container1 {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.568);
+  border: 1px dotted rgb(34, 34, 184);
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 520;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+td {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 520;
+  font-size: 20px;
+  text-align: justify;
+  color: blue;
+}
+
+td {
+  width: 33%;
+}
+
+.table_title1 {
+  font-weight: 600;
+  color: rgba(226, 8, 8, 0.788);
+  font-family: cursive;
+}
+
+.table_title2 {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.788);
+  font-family: cursive;
+}
+
+.table_title3 {
+  font-weight: 600;
+  color: rgba(0, 128, 0, 0.788);
+  font-family: cursive;
+}
+
+.table-text {
+  font-size: 18px;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+footer div {
+  background-color: rgba(0, 0, 255, 0.082);
+  display: inline-block;
+  width: 33%;
+}
+
+@media (max-width: 1000px) {
+  #container1 {
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100%;
+    width: 100%;
+  }
+
+  footer div {
+    background-color: rgba(0, 0, 255, 0.082);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
